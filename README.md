@@ -1,3 +1,5 @@
 Developed by [dev.CALIMLIM EDDISON JOED]  
+Designed by [dev.REFUGIA ALYSSA SHANE]
+DOCUMENTED by [dev.CALLOS CARL VINCENT]
 Course: [BSIT 2  -  BLOCK 1]  
 
