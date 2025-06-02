@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:id="@+id/rbwx8l1y2oo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@drawable/cr35bffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:orientation="vertical">
+
+            <!-- HEADER/IMAGE AREA -->
+            <RelativeLayout
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:id="@+id/r0r0xajskckc_rl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp">
+                <ImageView
+                    android:id="@+id/r0r0xajskckc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/recta_r"
+                    android:scaleType="fitXY"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:orientation="vertical"
+                    android:paddingVertical="1dp"
+                    android:gravity="center">
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="14dp"
+                        android:background="@drawable/onboarding_asset1"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+                        <RelativeLayout
+                            android:id="@+id/ripcelps6die"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="87dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:orientation="vertical" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!-- BUTTON BAR -->
+            <LinearLayout
+                android:id="@+id/rd6hbfc3ku7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginHorizontal="37dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:id="@+id/rf31m3yi28v"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cr15b91c674"
+                    android:padding="11dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/button_vet"
+                        android:layout_width="31dp"
+                        android:layout_height="31dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_bath" />
+                </LinearLayout>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+                <LinearLayout
+                    android:id="@+id/to_groom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cr15bd2e4c7"
+                    android:clickable="true"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:focusable="true"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="10dp"
+                    android:paddingVertical="11dp">
+                    <ImageView
+                        android:id="@+id/ghost_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_paw" />
+                </LinearLayout>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+                <LinearLayout
+                    android:id="@+id/to_boarding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cr15bd2e4c7"
+                    android:padding="11dp"
+                    android:clipChildren="false"
+                    android:clipToPadding="false"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/rg1pqla71gld"
+                        android:layout_width="31dp"
+                        android:layout_height="31dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/ic_dog_house" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- BUTTON LABELS -->
+            <LinearLayout
+                android:id="@+id/rhvmczvqru3g"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="34dp"
+                android:layout_marginHorizontal="28dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/ript8cvs8n4c"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:fontFamily="@font/fredoka_medium"
+                    android:text="Veterinary"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/ricazh860npg"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:fontFamily="@font/fredoka_medium"
+                    android:text="Grooming"/>
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"/>
+                <TextView
+                    android:id="@+id/rkyv9xe1sm1g"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Boarding"
+                    android:fontFamily="@font/fredoka_medium"
+                    />
+            </LinearLayout>
+
+            <!-- DIVIDER -->
+            <LinearLayout
+                android:id="@+id/rb5nj6dzlxk8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"
+                android:layout_marginBottom="20dp"
+                android:layout_marginHorizontal="8dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical" />
+
+            <!-- Veterinary Services Title -->
+            <LinearLayout
+                android:id="@+id/ryrd4d8xcxs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="28dp"
+                android:layout_marginStart="37dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/rbvygf4aray"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_marginEnd="126dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/fredoka_semi_bold"
+                    android:layout_width="wrap_content"
+                    android:text="Veterinary Services "/>
+            </LinearLayout>
+
+            <!-- Distemper CardView -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="19dp"
+                android:layout_marginBottom="20dp"
+                android:background="@android:color/transparent"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="22dp">
+
+                    <LinearLayout
+                        android:id="@+id/rr1g90wxmclo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="19dp"
+                        android:layout_marginBottom="4dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/rv3yu86dljwj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="9dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/ri1nusewv7w"
+                                android:layout_width="47dp"
+                                android:layout_height="45dp"
+                                android:layout_marginBottom="10dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/distemper_bottle" />
+
+                            <TextView
+                                android:id="@+id/rpze78y9j7f"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="3dp"
+                                android:text="Available "
+                                android:fontFamily="@font/fredoka_regular"                                android:textColor="#91C674"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/r1kjqng51agu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical">
+                            <TextView
+                                android:id="@+id/rf66k8odvilh"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:text="Distemper "
+                                android:fontFamily="@font/fredoka_medium"
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+                            <LinearLayout
+                                android:id="@+id/rp9tmfv72hh"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginBottom="1dp"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:id="@+id/rrjink86bbj"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="11dp"
+                                    android:text="₱700"
+                                    android:fontFamily="@font/fredoka_regular"
+                                    android:textColor="#000000"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:id="@+id/book1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="74dp"
+                                android:background="@drawable/cr12b91c674"
+                                android:clickable="true"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:focusable="true"
+                                android:orientation="vertical"
+                                android:paddingHorizontal="13dp"
+                                android:paddingVertical="9dp">
+                                <TextView
+                                    android:id="@+id/rsfl0wh5blfm"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Book Now"
+                                    android:fontFamily="@font/fredoka_medium"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/r4vd271fxlhq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="22dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingRight="2dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Calicivirus CardView -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="19dp"
+                android:layout_marginBottom="20dp"
+                android:background="@android:color/transparent"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="22dp">
+
+                    <LinearLayout
+                        android:id="@+id/rr1g90wxmclo1323"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="19dp"
+                        android:layout_marginBottom="4dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/rv3yu86wefwefdljwj"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="9dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/ri1nusewv7w2"
+                                android:layout_width="47dp"
+                                android:layout_height="45dp"
+                                android:layout_marginBottom="10dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/calicivirus_bottles" />
+
+                            <TextView
+                                android:id="@+id/rpze78y9j7f2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="3dp"
+                                android:text="Available "
+                                android:fontFamily="@font/fredoka_regular"
+                                android:textColor="#91C674"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/r1kjqngwegergre51agu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/rf66kwetger8odvilh"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:text="Calicivirus "
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:id="@+id/rp9tmfwerfewqv72hh"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginBottom="1dp"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/rrjiwetgwegergnk86bbj"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="11dp"
+                                    android:text="₱500"
+                                    android:fontFamily="@font/fredoka_regular"
+                                    android:textColor="#000000"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/book2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="74dp"
+                                android:background="@drawable/cr12b91c674"
+                                android:clickable="true"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:focusable="true"
+                                android:orientation="vertical"
+                                android:paddingHorizontal="13dp"
+                                android:paddingVertical="9dp">
+
+                                <TextView
+                                    android:id="@+id/rsfwqetegewrgl0wh5blfm"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Book Now"
+                                    android:fontFamily="@font/fredoka_medium"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/r4vd27wetger1fxlhq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="22dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingRight="2dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <!-- Rabies Vaccine CardView -->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="19dp"
+                android:layout_marginBottom="20dp"
+                android:background="@android:color/transparent"
+                app:cardCornerRadius="16dp"
+                app:cardElevation="6dp"
+                app:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="22dp">
+
+                    <LinearLayout
+                        android:id="@+id/rr1g90wxmclo256"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="19dp"
+                        android:layout_marginBottom="4dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/rv3yu86dljwj1466"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="9dp"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical">
+
+                            <com.google.android.material.imageview.ShapeableImageView
+                                android:id="@+id/ri1nusewv7w2156"
+                                android:layout_width="47dp"
+                                android:layout_height="45dp"
+                                android:layout_marginBottom="10dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/rabies_bottle" />
+
+                            <TextView
+                                android:id="@+id/rpze78y9j7f215778"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="3dp"
+                                android:text="Available "
+                                android:fontFamily="@font/fredoka_regular"
+                                android:textColor="#91C674"
+                                android:textSize="14sp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/r1kjqng51agu215758"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clipChildren="false"
+                            android:clipToPadding="false"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/wetgtgedg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="2dp"
+                                android:text="Rabbies Vaccine"
+                                android:textColor="#000000"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <LinearLayout
+                                android:id="@+id/rp9tmfv7wegeg2hh"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginBottom="1dp"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/rrwegegwjink86bbj"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="11dp"
+                                    android:text="₱400"
+                                    android:fontFamily="@font/fredoka_regular"
+                                    android:textColor="#000000"
+                                    android:textSize="14sp" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/book3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="74dp"
+                                android:background="@drawable/cr12b91c674"
+                                android:clickable="true"
+                                android:clipChildren="false"
+                                android:clipToPadding="false"
+                                android:focusable="true"
+                                android:orientation="vertical"
+                                android:paddingHorizontal="13dp"
+                                android:paddingVertical="9dp">
+
+                                <TextView
+                                    android:id="@+id/rsfl0wwegewgh5blfm"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Book Now"
+                                    android:fontFamily="@font/fredoka_medium"
+                                    android:textColor="#000000"
+                                    android:textSize="16sp"
+                                    android:textStyle="bold" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/r4vd271wegewgwerghfxlhq"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="22dp"
+                        android:clipChildren="false"
+                        android:clipToPadding="false"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingRight="2dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+
+                android:id="@+id/rlxenap56mc"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#000000"
+                android:layout_marginBottom="17dp"
+                android:layout_marginHorizontal="8dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:orientation="vertical"/>
+
+            <!-- ... (rest of your layout unchanged) ... -->
+
+            <!-- Example: Add additional sections below as needed -->
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- BOTTOM NAVIGATION -->
+    <LinearLayout
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_gravity="bottom"
+        android:background="@color/button2"
+        android:orientation="horizontal"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:weightSum="4"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        android:gravity="center">
+
+        <LinearLayout
+            android:id="@+id/home_layout"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_home"
+                android:tint="@color/gray_400"
+                tools:ignore="UseAppTint" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="HOME"
+                android:textSize="10sp"
+                android:textColor="@color/gray_400"
+                android:fontFamily="@font/fredoka_semi_bold"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_calendar"
+                android:tint="@color/black"
+                tools:ignore="UseAppTint" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BOOKINGS"
+                android:textSize="10sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/fredoka_semi_bold"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/notif"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_bell"
+                android:tint="@color/gray_400"
+                tools:ignore="UseAppTint" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NOTIFICATION"
+                android:textSize="10sp"
+                android:textColor="@color/gray_400"
+                android:fontFamily="@font/fredoka_semi_bold"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/prof"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true">
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:src="@drawable/ic_user"
+                android:tint="@color/gray_400"
+                tools:ignore="UseAppTint" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PROFILE"
+                android:textSize="10sp"
+                android:textColor="@color/gray_400"
+                android:fontFamily="@font/fredoka_semi_bold"
+                android:layout_marginTop="4dp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

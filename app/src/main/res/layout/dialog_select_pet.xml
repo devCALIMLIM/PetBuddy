@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:elevation="30dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/tv_select_pet_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select a Pet"
+        android:fontFamily="@font/fredoka_semi_bold"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black"/>
+
+    <ListView
+        android:id="@+id/list_pets"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:divider="@color/gray_400"
+        android:dividerHeight="1dp"
+        android:background="@android:color/white"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        android:layout_marginTop="16dp">
+
+        <Button
+            android:id="@+id/btn_cancel_pet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button3"
+            android:elevation="16dp"
+            android:fontFamily="@font/fredoka_medium"
+            android:text="Cancel"
+            />
+
+        <Button
+            android:id="@+id/btn_confirm_pet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select"
+            android:fontFamily="@font/fredoka_medium"
+            android:backgroundTint="@color/button1"
+            android:elevation="16dp"
+            android:layout_marginStart="12dp" />
+    </LinearLayout>
+</LinearLayout>

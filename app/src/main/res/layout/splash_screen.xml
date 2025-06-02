@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D3E4C7"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/splashscreen" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/logoImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="9dp"
+        android:text="Trusted Care for Your Furry Family"
+        android:textColor="#808080"
+        android:textSize="16sp"
+        android:fontFamily="@font/fredoka_semi_bold"
+        android:visibility="visible" />
+
+</RelativeLayout>

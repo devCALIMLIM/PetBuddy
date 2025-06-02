@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="green_200">#C6E2B3</color> <!-- Tailwind green-200 -->
+    <color name="green_300">#86C17F</color> <!-- Tailwind green-300 -->
+    <color name="green_400">#6AA84F</color> <!-- Tailwind green-400 -->
+    <color name="black_80">#333333</color> <!-- Dark text -->
+    <color name="gray_400">#9CA3AF</color> <!-- Tailwind gray-400 -->
+    <color name="button1">#91C674</color>
+    <color name="button2">#D2E4C7</color>
+    <color name="button3">#E54D4D</color>
+    <color name="total_color">#F0BB22</color>
+
+
+</resources>
+

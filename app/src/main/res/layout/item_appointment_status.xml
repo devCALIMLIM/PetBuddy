@@ -1,0 +1,122 @@
+<!--
+    Layout for each appointment card in the status section,
+    with a separator underline for each card.
+    Includes a hidden ID field for unique appointment tracking.
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    android:padding="14dp"
+    android:layout_marginBottom="0dp">
+
+    <!-- Appointment ID (hidden by default, set to visible for debug/tracking if needed) -->
+    <TextView
+        android:id="@+id/appointment_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: 123456"
+        android:textColor="#888888"
+        android:textSize="12sp"
+        android:layout_marginBottom="6dp"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/appointment_pet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pet Name:"
+        android:fontFamily="@font/fredoka_medium"
+        android:textStyle="bold"
+        android:textColor="#222222"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/appointment_care_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Care Type:"
+        android:fontFamily="@font/fredoka_medium"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:textColor="#7A86AE" />
+
+    <TextView
+        android:id="@+id/appointment_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service:"
+        android:fontFamily="@font/fredoka_medium"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:textColor="#7A86AE" />
+
+    <TextView
+        android:id="@+id/appointment_datetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date &amp; Time:"
+        android:fontFamily="@font/fredoka_medium"
+        android:textStyle="bold"
+        android:textSize="14dp"
+        android:textColor="#1976D2" />
+
+    <TextView
+        android:id="@+id/appointment_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total:"
+        android:textColor="#F0BB22"
+        android:fontFamily="@font/fredoka_medium"
+        android:textStyle="bold"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:id="@+id/appointment_status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status:"
+        android:textColor="#333333"
+        android:fontFamily="@font/fredoka_medium"
+        android:textStyle="bold"
+        android:textSize="14dp" />
+
+    <TextView
+        android:id="@+id/appointment_payment_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="PAID"
+        android:textColor="#4CAF50"
+        android:fontFamily="@font/fredoka_semi_bold"
+        android:textStyle="bold"
+        android:textSize="17dp" />
+
+    <Button
+        android:id="@+id/appointment_cancel_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:elevation="12dp"
+        android:text="Cancel"
+        android:fontFamily="@font/fredoka_semi_bold"
+        android:textColor="@android:color/white"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="6dp"/>
+
+    <!-- underline separator for each appointment card -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#D1D1D1"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="0dp"/>
+</LinearLayout>

@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F7F7F7"
+    android:gravity="top"
+    android:padding="0dp">
+
+    <!-- Green Header -->
+
+    <ImageView
+        android:id="@+id/r0r0xajskckc6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@mipmap/recta_r" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="18dp"
+            android:gravity="top|center_horizontal">
+
+            <!-- Transaction Details Box -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="14dp"
+                android:elevation="3dp"
+                android:layout_marginBottom="18dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginHorizontal="2dp"
+                android:backgroundTint="@android:color/white"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_border_box">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transaction Details"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="#111"
+                    android:fontFamily="@font/fredoka_medium"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transaction Amount"
+                    android:layout_marginTop="10dp"
+                    android:textSize="14sp"
+                    android:textColor="#111"
+                    android:fontFamily="@font/fredoka_medium"/>
+
+                <TextView
+                    android:id="@+id/txtTransAmount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:fontFamily="sans-serif"
+                    android:text=""
+                    android:textColor="#111"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Transaction Reference No"
+                    android:textStyle="bold"
+                    android:textColor="#111"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/fredoka_medium" />
+
+                <TextView
+                    android:id="@+id/txtTransRef"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A13XI45SCSA4UJ"
+                    android:textColor="#111"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/fredoka_regular" />
+            </LinearLayout>
+
+            <!-- Select Payment Method -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Card Type"
+                android:textStyle="bold"
+                android:textColor="#111"
+                android:textSize="15sp"
+                android:fontFamily="@font/fredoka_medium" />
+
+            <!-- Payment Icons -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="4dp"
+                android:layout_marginBottom="12dp">
+
+                <ImageView
+                    android:id="@+id/cardVisa"
+                    android:layout_width="54dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/visa"
+                    android:layout_marginRight="8dp"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+                <ImageView
+                    android:id="@+id/cardMC"
+                    android:layout_width="54dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/mastercard"
+                    android:layout_marginRight="8dp"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+                <ImageView
+                    android:id="@+id/cardAmex"
+                    android:layout_width="54dp"
+                    android:layout_height="32dp"
+                    android:src="@drawable/amex"
+                    android:layout_marginRight="8dp"
+                    android:clickable="true"
+                    android:focusable="true" />
+
+            </LinearLayout>
+
+            <!-- CARD FIELDS -->
+            <LinearLayout
+                android:id="@+id/cardFields"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Card number"
+                    android:textColor="#111"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/fredoka_medium" />
+                <EditText
+                    android:id="@+id/edtCardNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/s0000004dsw1cr15bffffff"
+                    android:inputType="number"
+                    android:paddingHorizontal="8dp"
+                    android:textColor="#111"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Name on the card"
+                    android:textColor="#111"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/fredoka_medium" />
+                <EditText
+                    android:id="@+id/edtCardName"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/s0000004dsw1cr15bffffff"
+                    android:inputType="textCapWords"
+                    android:paddingHorizontal="8dp"
+                    android:textColor="#111"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="CVC Number"
+                    android:textColor="#111"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/fredoka_medium" />
+                <EditText
+                    android:id="@+id/edtCardCVC"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/s0000004dsw1cr15bffffff"
+                    android:inputType="numberPassword"
+                    android:maxLength="4"
+                    android:paddingHorizontal="8dp"
+                    android:textColor="#111"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Expiring Date"
+                    android:textColor="#111"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/fredoka_medium" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="16dp">
+
+                    <EditText
+                        android:id="@+id/edtExpMonth"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/s0000004dsw1cr15bffffff"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:hint="MM"
+                        android:paddingHorizontal="8dp"
+                        android:textColor="#111"
+                        android:textSize="14sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" / "
+                        android:paddingHorizontal="6dp"
+                        android:textColor="#111"
+                        android:textSize="18sp"/>
+                    <EditText
+                        android:id="@+id/edtExpYear"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/s0000004dsw1cr15bffffff"
+                        android:inputType="number"
+                        android:maxLength="2"
+                        android:hint="YY"
+                        android:paddingHorizontal="8dp"
+                        android:textColor="#111"
+                        android:textSize="14sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <!-- GCASH FIELD -->
+            <LinearLayout
+                android:id="@+id/gcashField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="GCash Mobile Number"
+                    android:textColor="#111"
+                    android:textSize="14sp"
+                    android:fontFamily="sans-serif" />
+                <EditText
+                    android:id="@+id/edtGCashNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_box"
+                    android:inputType="phone"
+                    android:paddingHorizontal="8dp"
+                    android:textColor="#111"
+                    android:textSize="14sp"
+                    android:layout_marginBottom="16dp"/>
+            </LinearLayout>
+
+            <!-- Confirm Button -->
+            <Button
+                android:id="@+id/btnConfirmPayment"
+                android:layout_width="375dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="#91C674"
+                android:fontFamily="@font/fredoka_medium"
+                android:text="Confirm Payment"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

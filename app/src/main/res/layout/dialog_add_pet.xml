@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:elevation="20dp">
+
+        <ImageView
+            android:id="@+id/img_pet_photo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/pet_profile"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/edit_pet_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/onboarding_asset1"
+            android:hint="Pet Name"
+            android:paddingStart="12dp"
+            android:fontFamily="@font/fredoka_regular" />
+
+        <EditText
+            android:id="@+id/edit_pet_type"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/onboarding_asset1"
+            android:hint="Pet Type (Dog/Cat)"
+            android:paddingStart="12dp"
+            android:fontFamily="@font/fredoka_regular" />
+
+        <EditText
+            android:id="@+id/edit_pet_breed"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/onboarding_asset1"
+            android:hint="Breed"
+            android:paddingStart="12dp"
+            android:fontFamily="@font/fredoka_regular" />
+
+        <EditText
+            android:id="@+id/edit_pet_sex"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/onboarding_asset1"
+            android:hint="Sex"
+            android:paddingStart="12dp"
+            android:fontFamily="@font/fredoka_regular" />
+
+        <EditText
+            android:id="@+id/edit_pet_birthdate"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/onboarding_asset1"
+            android:hint="Birthdate (Optional)"
+            android:paddingStart="12dp"
+            android:fontFamily="@font/fredoka_regular"
+            />
+
+        <EditText
+            android:id="@+id/edit_pet_weight"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/onboarding_asset1"
+            android:hint="Weight (Optional)"
+            android:paddingStart="12dp"
+            android:fontFamily="@font/fredoka_regular"
+            android:inputType="numberDecimal"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="24dp">
+
+            <Button
+                android:id="@+id/btn_confirm_add_edit_pet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/button1"
+                android:elevation="12dp"
+                android:fontFamily="@font/fredoka_medium"
+                android:text="Add Pet"
+                android:textColor="@android:color/white" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

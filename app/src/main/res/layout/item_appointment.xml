@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/history_pet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pet Name"
+            android:fontFamily="@font/fredoka_medium"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#222222" />
+
+        <TextView
+            android:id="@+id/history_care_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Care Type: Veterinary"
+            android:fontFamily="@font/fredoka_medium"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textColor="#7A86AE"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/history_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service: Distemper"
+            android:fontFamily="@font/fredoka_medium"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textColor="#7A86AE"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/history_datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date &amp; Time: 2025-05-20 14:00"
+            android:fontFamily="@font/fredoka_medium"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textColor="#1976D2"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/history_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: ₱300"
+            android:fontFamily="@font/fredoka_medium"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:textColor="#FFD600"/>
+
+        <TextView
+            android:id="@+id/history_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: ₱350.00"
+            android:textSize="15sp"
+            android:textColor="#d9534f"
+            android:layout_marginTop="2dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/history_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: In Progress"
+            android:fontFamily="@font/fredoka_medium"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textColor="#7A86AE "
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/history_payment_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="PAID"
+            android:fontFamily="@font/fredoka_medium"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            android:textColor="#91C674" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

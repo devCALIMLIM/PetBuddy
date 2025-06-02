@@ -1,0 +1,157 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F4F6">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <!-- Logo -->
+
+        <!-- Full Name -->
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:contentDescription="PetBuddy logo with a paw print"
+            android:src="@mipmap/onboarding_screen" />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/onboarding_asset1"
+            android:hint="Full Name"
+            android:fontFamily="@font/fredoka_regular"
+            android:paddingHorizontal="16dp"
+            android:inputType="textPersonName"
+            android:importantForAutofill="no" />
+
+        <TextView
+            android:id="@+id/username_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D32F2F"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:paddingStart="16dp"
+            android:text="" />
+
+        <!-- Email -->
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/onboarding_asset1"
+            android:hint="Email Address"
+            android:fontFamily="@font/fredoka_regular"
+            android:paddingHorizontal="16dp"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/email_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D32F2F"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:paddingStart="16dp"
+            android:text="" />
+
+        <!-- Password -->
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/onboarding_asset1"
+            android:hint="Password"
+            android:fontFamily="@font/fredoka_regular"
+            android:paddingHorizontal="16dp"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/password_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D32F2F"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:paddingStart="16dp"
+            android:text="" />
+
+        <!-- Confirm Password -->
+        <EditText
+            android:id="@+id/confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/onboarding_asset1"
+            android:hint="Confirm Password"
+            android:fontFamily="@font/fredoka_regular"
+            android:paddingHorizontal="16dp"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/confirm_password_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D32F2F"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:paddingStart="16dp"
+            android:text="" />
+
+        <!-- Terms -->
+        <CheckBox
+            android:id="@+id/terms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/fredoka_medium"
+            android:padding="16dp"
+            android:text="I accept Privacy Policy and Terms of Use"
+            android:textColor="#91C674"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/terms_error"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#D32F2F"
+            android:textSize="12sp"
+            android:visibility="gone"
+            android:paddingStart="16dp"
+            android:text="" />
+
+        <!-- Sign up -->
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:elevation="4dp"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="#91C674"
+            android:text="SIGN UP"
+            android:fontFamily="@font/fredoka_medium"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp" />
+
+        <!-- For spacing at the bottom -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+    </LinearLayout>
+</ScrollView>

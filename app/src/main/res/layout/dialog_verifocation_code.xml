@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Verification Code"
+        android:fontFamily="@font/fredoka_semi_bold"
+        android:textStyle="bold"
+
+        android:textSize="18sp"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/otp_code"
+        android:layout_width="151dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/onboarding_asset1"
+
+        android:fontFamily="@font/fredoka_regular"
+        android:gravity="center"
+        android:hint="6-digit code"
+        android:inputType="number"
+        android:maxLength="6"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/verify_btn"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/button1"
+        android:fontFamily="@font/fredoka_medium"
+        android:elevation="16dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:text="Verify" />
+</LinearLayout>

@@ -1,0 +1,167 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F7F7F7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Green rounded header background image -->
+
+    <ImageView
+        android:id="@+id/r0r0xajskckc3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:src="@mipmap/recta_r" />
+
+    <LinearLayout
+        android:layout_width="401dp"
+        android:layout_height="876dp"
+        android:orientation="vertical"
+        android:paddingStart="18dp"
+        android:paddingTop="0dp"
+        android:paddingEnd="18dp"
+        android:paddingBottom="18dp">
+
+        <!-- Title -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/fredoka_medium"
+            android:gravity="center_horizontal"
+            android:text="Choose a Date"
+            android:textColor="#171717"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <!-- CalendarView with shadow -->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp">
+
+            <CalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white" />
+        </androidx.cardview.widget.CardView>
+
+        <!-- Pick a Time Label -->
+        <TextView
+            android:id="@+id/pick_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="6dp"
+            android:fontFamily="@font/fredoka_medium"
+            android:text="Pick a Time"
+            android:textColor="#171717"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Time slots in 2 columns, perfectly aligned -->
+        <GridLayout
+            android:id="@+id/timeGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:rowOrderPreserved="false">
+
+            <Button
+                android:id="@+id/time_930"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/time_slot_selector"
+                android:text="9:30 AM"
+                android:fontFamily="@font/fredoka_semi_bold"
+                android:textColor="#171717"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/time_1030"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/time_slot_selector"
+                android:text="10:30 AM"
+                android:fontFamily="@font/fredoka_semi_bold"
+                android:textColor="#171717"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/time_1130"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/time_slot_selector"
+                android:text="11:30 AM"
+                android:fontFamily="@font/fredoka_semi_bold"
+                android:textColor="#171717"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/time_330"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/time_slot_selector"
+                android:text="3:30 PM"
+                android:fontFamily="@font/fredoka_semi_bold"
+                android:textColor="#171717"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/time_430"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/time_slot_selector"
+                android:text="4:30 PM"
+                android:fontFamily="@font/fredoka_semi_bold"
+                android:textColor="#171717"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/time_530"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_columnWeight="1"
+                android:layout_margin="6dp"
+                android:background="@drawable/time_slot_selector"
+                android:text="5:30 PM"
+                android:fontFamily="@font/fredoka_semi_bold"
+                android:textColor="#171717"
+                android:textStyle="bold" />
+
+        </GridLayout>
+
+        <!-- Book Button -->
+        <Button
+            android:id="@+id/btn_book"
+            android:layout_width="369dp"
+            android:background="@drawable/button_rounded"
+            android:layout_height="63dp"
+            android:backgroundTint="#91C674"
+            android:elevation="2dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Book an Appointment"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</FrameLayout>
