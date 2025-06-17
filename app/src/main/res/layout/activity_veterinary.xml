@@ -432,6 +432,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="2dp"
                                 android:text="Calicivirus "
+                                android:fontFamily="@font/fredoka_medium"
                                 android:textColor="#000000"
                                 android:textSize="20sp"
                                 android:textStyle="bold" />
@@ -569,6 +570,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginBottom="2dp"
                                 android:text="Rabbies Vaccine"
+                                android:fontFamily="@font/fredoka_medium"
                                 android:textColor="#000000"
                                 android:textSize="20sp"
                                 android:textStyle="bold" />
